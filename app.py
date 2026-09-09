@@ -95,6 +95,71 @@ input{
     unsafe_allow_html=True,
 )
 
+
+# ==========================================================
+# LOGIN
+# ==========================================================
+def get_login_users():
+    """
+    No Streamlit Cloud, configure em Settings > Secrets:
+
+    [LOGIN_USERS]
+    julia = "SUA_SENHA"
+    jessica = "SUA_SENHA"
+
+    Localmente, use .streamlit/secrets.toml com a mesma estrutura.
+    """
+    try:
+        users = st.secrets.get("LOGIN_USERS", {})
+        return {str(k).strip().lower(): str(v) for k, v in users.items()}
+    except Exception:
+        return {}
+
+def tela_login():
+    st.markdown("""
+    <style>
+    [data-testid="stSidebar"] {display:none;}
+    .login-title {
+        text-align:center;
+        font-size:2rem;
+        font-weight:800;
+        margin-top:4rem;
+        margin-bottom:.25rem;
+    }
+    .login-subtitle {
+        text-align:center;
+        color:#667085;
+        margin-bottom:1.5rem;
+    }
+    </style>
+    """, unsafe_allow_html=True)
+
+    st.markdown('<div class="login-title">📱 Controle de Aparelhos e Chips</div>', unsafe_allow_html=True)
+    st.markdown('<div class="login-subtitle">Acesso restrito</div>', unsafe_allow_html=True)
+
+    left, center, right = st.columns([1.4, 1, 1.4])
+    with center:
+        with st.form("login_form"):
+            usuario = st.text_input("Usuário")
+            senha = st.text_input("Senha", type="password")
+            entrar = st.form_submit_button("Entrar", type="primary", use_container_width=True)
+
+        if entrar:
+            users = get_login_users()
+            if not users:
+                st.error("Usuários de acesso ainda não foram configurados nos Secrets.")
+            elif usuario.strip().lower() in users and senha == users[usuario.strip().lower()]:
+                st.session_state["autenticado"] = True
+                st.session_state["usuario_logado"] = usuario.strip().lower()
+                st.rerun()
+            else:
+                st.error("Usuário ou senha incorretos.")
+
+if not st.session_state.get("autenticado", False):
+    tela_login()
+    st.stop()
+
+
 # ==========================================================
 # PERSISTÊNCIA LOCAL + GITHUB
 # ==========================================================
@@ -514,6 +579,12 @@ df = records_df(records)
 with st.sidebar:
     st.markdown("## 📱 Gestão de ativos")
     st.caption("Aparelhos • Chips • Linhas • Apps")
+    st.caption(f"👤 {st.session_state.get('usuario_logado', '').title()}")
+    if st.button("🚪 Sair", use_container_width=True):
+        st.session_state["autenticado"] = False
+        st.session_state.pop("usuario_logado", None)
+        st.rerun()
+    st.divider()
     menu = st.radio(
         "Navegação",
         [
