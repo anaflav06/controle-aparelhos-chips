@@ -26,6 +26,32 @@
       "observacao": "O Life360 está cadastrado no número 11 99709-8630 porém não temos mais essa linha.",
       "criado_em": "2026-09-09T18:48:37",
       "atualizado_em": "2026-09-09T18:48:37"
+    },
+    {
+      "id": "926b36d6-df52-4dad-95cc-9ccc66c23301",
+      "responsavel": "",
+      "cpf": "",
+      "cargo": "",
+      "localizacao": "",
+      "telefone": "",
+      "operadora": "",
+      "tipo_chip": "",
+      "status_linha": "",
+      "classificacao_linha": "",
+      "imei": "357239731326412",
+      "imei2": "357239731326420",
+      "marca": "MOTOROLA",
+      "modelo": "E7 PLUS",
+      "status_aparelho": "EM ESTOQUE",
+      "senha_celular": "",
+      "email_celular": "",
+      "senha_email": "",
+      "life_status": "",
+      "email_life": "",
+      "senha_life": "",
+      "observacao": "",
+      "criado_em": "2026-09-09T19:12:19",
+      "atualizado_em": "2026-09-09T19:12:19"
     }
   ]
 }
