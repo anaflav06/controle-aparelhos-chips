@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "cadastros": [
+    {
+      "id": "8a89c1ad-f476-462b-af29-ca97249c5d8d",
+      "responsavel": "JULIA DE ASSIS DA SILVA",
+      "cpf": "475.583.278-06",
+      "cargo": "ASSISTENTE DE LOGISTICA",
+      "localizacao": "CDSP2",
+      "telefone": "(11) 91879-1243",
+      "operadora": "VIVO",
+      "tipo_chip": "CHIP FÍSICO",
+      "status_linha": "ATIVA",
+      "classificacao_linha": "CORPORATIVO / PAGO",
+      "imei": "351932266439552",
+      "imei2": "351932266439560",
+      "marca": "MOTOROLA",
+      "modelo": "G53",
+      "status_aparelho": "EM USO",
+      "senha_celular": "9129",
+      "email_celular": "julia.gdslog@gmail.com",
+      "senha_email": "Gds2025@",
+      "life_status": "ATIVO",
+      "email_life": "julia.silva@gdslogistica.com.br",
+      "senha_life": "Gds2025@",
+      "observacao": "O Life360 está cadastrado no número 11 99709-8630 porém não temos mais essa linha.",
+      "criado_em": "2026-09-09T18:48:37",
+      "atualizado_em": "2026-09-09T18:48:37"
+    }
+  ]
+}
