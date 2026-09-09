@@ -32,6 +32,7 @@ CLASSIFICACOES = [
     "CANCELAR / AVALIAR",
 ]
 LIFE_STATUS = ["", "ATIVO", "INATIVO", "NÃO UTILIZA"]
+LOCALIZACOES = ["", "CPQ08", "SAO12", "CDSP2", "ZARA1", "ASSISTÊNCIA"]
 
 # ==========================================================
 # VISUAL
@@ -449,7 +450,7 @@ def normalize_record(r, current=None):
         "responsavel": clean(r.get("responsavel")).upper(),
         "cpf": format_cpf(r.get("cpf")),
         "cargo": clean(r.get("cargo")).upper(),
-        "empresa_operacao": clean(r.get("empresa_operacao")).upper(),
+        "localizacao": clean(r.get("localizacao")).upper(),
 
         "telefone": format_phone(r.get("telefone")),
         "operadora": clean(r.get("operadora")).upper(),
@@ -478,7 +479,7 @@ def normalize_record(r, current=None):
 def records_df(records):
     if not records:
         return pd.DataFrame(columns=[
-            "id","responsavel","cpf","cargo","empresa_operacao",
+            "id","responsavel","cpf","cargo","localizacao",
             "telefone","operadora","tipo_chip","status_linha","classificacao_linha",
             "imei","imei2","marca","modelo","status_aparelho",
             "senha_celular","email_celular","senha_email","life_status","email_life","senha_life",
@@ -487,8 +488,11 @@ def records_df(records):
     rows = []
     for r in records:
         x = dict(r)
-        x["situacao"] = situacao_registro(r)
-        x["pendencias"] = pendencias_registro(r)
+        if "localizacao" not in x:
+            antigo = clean(x.get("empresa_operacao", "")).upper()
+            x["localizacao"] = antigo if antigo in LOCALIZACOES else ""
+        x["situacao"] = situacao_registro(x)
+        x["pendencias"] = pendencias_registro(x)
         rows.append(x)
     return pd.DataFrame(rows)
 
@@ -526,7 +530,7 @@ def export_excel(records, chips_only=False):
         "responsavel":"Responsável",
         "cpf":"CPF",
         "cargo":"Cargo",
-        "empresa_operacao":"Empresa / Operação",
+        "localizacao":"Localização",
         "telefone":"Telefone",
         "operadora":"Operadora",
         "tipo_chip":"Tipo do chip",
@@ -545,7 +549,7 @@ def export_excel(records, chips_only=False):
     }
     df = df.rename(columns=ren)
     cols = [c for c in [
-        "Responsável","CPF","Cargo","Empresa / Operação",
+        "Responsável","CPF","Cargo","Localização",
         "Telefone","Operadora","Tipo do chip","Status da linha","Classificação da linha",
         "IMEI","IMEI 2","Marca","Modelo","Status do aparelho",
         "Life","E-mail Life","Situação","Pendências","Observação"
@@ -561,7 +565,7 @@ def search_df(df, termo):
         return df
     termo = termo.lower()
     cols = [
-        "responsavel","cpf","cargo","empresa_operacao","telefone","operadora",
+        "responsavel","cpf","cargo","localizacao","telefone","operadora",
         "imei","modelo","marca","status_aparelho","status_linha","observacao"
     ]
     mask = pd.Series(False, index=df.index)
@@ -643,7 +647,7 @@ if menu == "🏠 Dashboard":
             ],
         )
     with b:
-        busca = st.text_input("🔎 Buscar por nome, CPF, telefone, IMEI, modelo, marca ou operação")
+        busca = st.text_input("🔎 Buscar por nome, CPF, telefone, IMEI, modelo, marca ou localização")
 
     view = df.copy()
     if filtro == "VINCULADOS":
@@ -665,7 +669,7 @@ if menu == "🏠 Dashboard":
         st.info("Nenhum cadastro encontrado.")
     else:
         tabela = view[[
-            "responsavel","cpf","cargo","empresa_operacao",
+            "responsavel","cpf","cargo","localizacao",
             "telefone","operadora","status_linha",
             "imei","marca","modelo","status_aparelho",
             "life_status","situacao","pendencias"
@@ -673,7 +677,7 @@ if menu == "🏠 Dashboard":
             "responsavel":"Responsável",
             "cpf":"CPF",
             "cargo":"Cargo",
-            "empresa_operacao":"Empresa / Operação",
+            "localizacao":"Localização",
             "telefone":"Telefone",
             "operadora":"Operadora",
             "status_linha":"Status linha",
@@ -698,7 +702,13 @@ def cadastro_form(prefix, initial=None):
     responsavel = c1.text_input("Nome / responsável", clean(initial.get("responsavel")), key=f"{prefix}_responsavel")
     cpf = c2.text_input("CPF", clean(initial.get("cpf")), placeholder="000.000.000-00", key=f"{prefix}_cpf")
     cargo = c3.text_input("Cargo", clean(initial.get("cargo")), key=f"{prefix}_cargo")
-    empresa_operacao = c4.text_input("Empresa / Operação", clean(initial.get("empresa_operacao")), key=f"{prefix}_operacao")
+    loc_ini = clean(initial.get("localizacao"))
+    localizacao = c4.selectbox(
+        "Localização",
+        LOCALIZACOES,
+        index=LOCALIZACOES.index(loc_ini) if loc_ini in LOCALIZACOES else 0,
+        key=f"{prefix}_localizacao",
+    )
 
     st.markdown('<div class="section-title">📶 2. Dados da linha / telefone</div>', unsafe_allow_html=True)
     c1,c2,c3,c4,c5 = st.columns(5)
@@ -742,7 +752,7 @@ def cadastro_form(prefix, initial=None):
         "responsavel": responsavel,
         "cpf": cpf,
         "cargo": cargo,
-        "empresa_operacao": empresa_operacao,
+        "localizacao": localizacao,
         "telefone": telefone,
         "operadora": operadora,
         "tipo_chip": tipo_chip,
@@ -867,12 +877,12 @@ elif menu == "📦 Estoque":
     else:
         st.dataframe(
             view[[
-                "responsavel","cpf","empresa_operacao",
+                "responsavel","cpf","localizacao",
                 "telefone","operadora","status_linha",
                 "imei","marca","modelo","status_aparelho",
                 "situacao","pendencias","observacao"
             ]].rename(columns={
-                "responsavel":"Responsável","cpf":"CPF","empresa_operacao":"Empresa / Operação",
+                "responsavel":"Responsável","cpf":"CPF","localizacao":"Localização",
                 "telefone":"Telefone","operadora":"Operadora","status_linha":"Status linha",
                 "imei":"IMEI","marca":"Marca","modelo":"Modelo","status_aparelho":"Status aparelho",
                 "situacao":"Situação","pendencias":"Pendências","observacao":"Observação",
@@ -887,7 +897,7 @@ elif menu == "📦 Estoque":
 # ==========================================================
 elif menu == "📄 Conferência":
     st.markdown("### Conferência e exportação")
-    st.write("Exporte as linhas para comparar o que está no app com os planos pagos/linhas existentes na operação.")
+    st.write("Exporte as linhas para comparar o que está no app com os planos pagos/linhas existentes na localização.")
 
     linhas = df[df["telefone"].fillna("").ne("")] if not df.empty else df
     aparelhos = df[df["imei"].fillna("").ne("")] if not df.empty else df
@@ -902,10 +912,10 @@ elif menu == "📄 Conferência":
         st.markdown("#### Linhas / chips")
         st.dataframe(
             linhas[[
-                "responsavel","empresa_operacao","telefone","operadora","tipo_chip",
+                "responsavel","localizacao","telefone","operadora","tipo_chip",
                 "status_linha","classificacao_linha","imei","modelo","situacao","pendencias"
             ]].rename(columns={
-                "responsavel":"Responsável","empresa_operacao":"Empresa / Operação","telefone":"Telefone",
+                "responsavel":"Responsável","localizacao":"Localização","telefone":"Telefone",
                 "operadora":"Operadora","tipo_chip":"Tipo","status_linha":"Status",
                 "classificacao_linha":"Classificação","imei":"IMEI vinculado","modelo":"Aparelho",
                 "situacao":"Situação","pendencias":"Pendências",
