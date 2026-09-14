@@ -52,6 +52,32 @@
       "observacao": "",
       "criado_em": "2026-09-09T19:12:19",
       "atualizado_em": "2026-09-09T19:12:19"
+    },
+    {
+      "id": "b7e988ad-53ba-4447-a7a6-6de15273c317",
+      "responsavel": "VINICIUS DE LIMA SOARES",
+      "cpf": "463.077.758-07",
+      "cargo": "LIDER",
+      "localizacao": "CDSP2",
+      "telefone": "(11) 97398-1302",
+      "operadora": "VIVO",
+      "tipo_chip": "CHIP FÍSICO",
+      "status_linha": "ATIVA",
+      "classificacao_linha": "CORPORATIVO / PAGO",
+      "imei": "353104906101111",
+      "imei2": "353104906101129",
+      "marca": "MOTOROLA",
+      "modelo": "G15",
+      "status_aparelho": "EM USO",
+      "senha_celular": "9129",
+      "email_celular": "vinicius.gdslider@gmail.com",
+      "senha_email": "Azul1234#",
+      "life_status": "ATIVO",
+      "email_life": "vinicius.gdslider@gmail.com",
+      "senha_life": "Azul1234#",
+      "observacao": "Identificador do TRACCAR - 33731915",
+      "criado_em": "2026-09-14T20:18:44",
+      "atualizado_em": "2026-09-14T20:18:44"
     }
   ]
 }
