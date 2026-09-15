@@ -32,6 +32,7 @@ CLASSIFICACOES = [
     "CANCELAR / AVALIAR",
 ]
 LIFE_STATUS = ["", "ATIVO", "INATIVO", "NÃO UTILIZA"]
+TRACCAR_STATUS = ["", "ATIVO", "INATIVO", "NÃO UTILIZA"]
 LOCALIZACOES = ["", "CPQ08", "SAO12", "CDSP2", "ZARA1", "ASSISTÊNCIA"]
 
 # ==========================================================
@@ -470,6 +471,9 @@ def normalize_record(r, current=None):
         "life_status": clean(r.get("life_status")),
         "email_life": clean(r.get("email_life")),
         "senha_life": clean(r.get("senha_life")),
+        "traccar_status": clean(r.get("traccar_status")),
+        "traccar_identificador": clean(r.get("traccar_identificador")),
+        "traccar_ultima_atualizacao": clean(r.get("traccar_ultima_atualizacao")),
 
         "observacao": clean(r.get("observacao")),
         "criado_em": current.get("criado_em") or now_iso(),
@@ -483,6 +487,7 @@ def records_df(records):
             "telefone","operadora","tipo_chip","status_linha","classificacao_linha",
             "imei","imei2","marca","modelo","status_aparelho",
             "senha_celular","email_celular","senha_email","life_status","email_life","senha_life",
+            "traccar_status","traccar_identificador","traccar_ultima_atualizacao",
             "observacao","criado_em","atualizado_em","situacao","pendencias"
         ])
     rows = []
@@ -491,6 +496,9 @@ def records_df(records):
         if "localizacao" not in x:
             antigo = clean(x.get("empresa_operacao", "")).upper()
             x["localizacao"] = antigo if antigo in LOCALIZACOES else ""
+        x.setdefault("traccar_status", "")
+        x.setdefault("traccar_identificador", "")
+        x.setdefault("traccar_ultima_atualizacao", "")
         x["situacao"] = situacao_registro(x)
         x["pendencias"] = pendencias_registro(x)
         rows.append(x)
@@ -543,6 +551,9 @@ def export_excel(records, chips_only=False):
         "status_aparelho":"Status do aparelho",
         "life_status":"Life",
         "email_life":"E-mail Life",
+        "traccar_status":"Traccar",
+        "traccar_identificador":"Identificador Traccar",
+        "traccar_ultima_atualizacao":"Última atualização Traccar",
         "situacao":"Situação",
         "pendencias":"Pendências",
         "observacao":"Observação",
@@ -552,7 +563,8 @@ def export_excel(records, chips_only=False):
         "Responsável","CPF","Cargo","Localização",
         "Telefone","Operadora","Tipo do chip","Status da linha","Classificação da linha",
         "IMEI","IMEI 2","Marca","Modelo","Status do aparelho",
-        "Life","E-mail Life","Situação","Pendências","Observação"
+        "Life","E-mail Life","Traccar","Identificador Traccar","Última atualização Traccar",
+        "Situação","Pendências","Observação"
     ] if c in df.columns]
 
     bio = BytesIO()
@@ -672,7 +684,8 @@ if menu == "🏠 Dashboard":
             "responsavel","cpf","cargo","localizacao",
             "telefone","operadora","status_linha",
             "imei","marca","modelo","status_aparelho",
-            "life_status","situacao","pendencias"
+            "life_status","traccar_status","traccar_identificador","traccar_ultima_atualizacao",
+            "situacao","pendencias"
         ]].rename(columns={
             "responsavel":"Responsável",
             "cpf":"CPF",
@@ -686,10 +699,33 @@ if menu == "🏠 Dashboard":
             "modelo":"Modelo",
             "status_aparelho":"Status aparelho",
             "life_status":"Life",
+            "traccar_status":"Traccar",
+            "traccar_identificador":"ID Traccar",
+            "traccar_ultima_atualizacao":"Atualização Traccar",
             "situacao":"Situação",
             "pendencias":"Pendências",
         })
-        st.dataframe(tabela, use_container_width=True, hide_index=True, height=560)
+        def cor_linha_dashboard(row):
+            status = clean(row.get("Status aparelho")).upper()
+            situacao = clean(row.get("Situação")).upper()
+            if status == "ROUBADO/PERDIDO":
+                cor = "background-color: #FECACA; color: #7F1D1D;"
+            elif status == "ASSISTÊNCIA":
+                cor = "background-color: #FEF3C7; color: #78350F;"
+            elif status == "INATIVO":
+                cor = "background-color: #E5E7EB; color: #374151;"
+            elif situacao == "APARELHO DISPONÍVEL EM ESTOQUE" or status == "EM ESTOQUE":
+                cor = "background-color: #DBEAFE; color: #1E3A8A;"
+            elif situacao == "CHIP DISPONÍVEL EM ESTOQUE":
+                cor = "background-color: #EDE9FE; color: #4C1D95;"
+            elif status == "EM USO" or situacao == "VINCULADO":
+                cor = "background-color: #DCFCE7; color: #14532D;"
+            else:
+                cor = ""
+            return [cor] * len(row)
+
+        tabela_colorida = tabela.style.apply(cor_linha_dashboard, axis=1)
+        st.dataframe(tabela_colorida, use_container_width=True, hide_index=True, height=560)
 
 # ==========================================================
 # FORMULÁRIO REUTILIZÁVEL
@@ -746,6 +782,13 @@ def cadastro_form(prefix, initial=None):
     email_life = c5.text_input("E-mail Life", clean(initial.get("email_life")), key=f"{prefix}_email_life")
     senha_life = c6.text_input("Senha Life", clean(initial.get("senha_life")), key=f"{prefix}_senha_life")
 
+    st.markdown("##### 📍 TRACCAR")
+    t1,t2,t3 = st.columns(3)
+    traccar_ini = clean(initial.get("traccar_status"))
+    traccar_status = t1.selectbox("Traccar", TRACCAR_STATUS, index=TRACCAR_STATUS.index(traccar_ini) if traccar_ini in TRACCAR_STATUS else 0, key=f"{prefix}_traccar_status")
+    traccar_identificador = t2.text_input("Identificador do dispositivo", clean(initial.get("traccar_identificador")), key=f"{prefix}_traccar_id")
+    traccar_ultima_atualizacao = t3.text_input("Data da última atualização", clean(initial.get("traccar_ultima_atualizacao")), placeholder="DD/MM/AAAA", key=f"{prefix}_traccar_data")
+
     observacao = st.text_area("📝 Observação", clean(initial.get("observacao")), key=f"{prefix}_obs")
 
     return {
@@ -769,6 +812,9 @@ def cadastro_form(prefix, initial=None):
         "life_status": life_status,
         "email_life": email_life,
         "senha_life": senha_life,
+        "traccar_status": traccar_status,
+        "traccar_identificador": traccar_identificador,
+        "traccar_ultima_atualizacao": traccar_ultima_atualizacao,
         "observacao": observacao,
     }
 
