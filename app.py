@@ -822,7 +822,7 @@ elif menu == "✏️ Editar cadastro":
             initial = next(x for x in records if x.get("id") == rid)
 
             with st.form("form_editar"):
-                form_data = cadastro_form("editar", initial)
+                form_data = cadastro_form(f"editar_{rid}", initial)
                 submit_ed = st.form_submit_button("💾 Salvar alterações", type="primary", use_container_width=True)
 
             if submit_ed:
@@ -946,14 +946,13 @@ elif menu == "📄 Conferência":
 # ==========================================================
 elif menu == "💾 Backup":
     st.markdown("### Backup da base")
-    st.write("Faça uma cópia da base sempre que desejar guardar um ponto de segurança.")
+    st.write("Baixe uma cópia completa em Excel para guardar, consultar ou utilizar como backup.")
 
-    raw = json.dumps(db, ensure_ascii=False, indent=2).encode("utf-8")
     st.download_button(
-        "⬇️ Baixar backup JSON",
-        data=raw,
-        file_name=f"backup_aparelhos_chips_{datetime.now().strftime('%Y%m%d_%H%M')}.json",
-        mime="application/json",
+        "⬇️ Baixar backup Excel",
+        data=export_excel(records, chips_only=False),
+        file_name=f"backup_aparelhos_chips_{datetime.now().strftime('%Y%m%d_%H%M')}.xlsx",
+        mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
         type="primary",
     )
 
