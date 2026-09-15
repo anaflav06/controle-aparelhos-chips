@@ -78,6 +78,32 @@
       "observacao": "Identificador do TRACCAR - 33731915",
       "criado_em": "2026-09-14T20:18:44",
       "atualizado_em": "2026-09-14T20:18:44"
+    },
+    {
+      "id": "c597da15-71ec-4642-8183-51f33016e635",
+      "responsavel": "CARLOS ALBERTO LUZ DE SOUZA",
+      "cpf": "136.421.758-99",
+      "cargo": "MOTORISTA",
+      "localizacao": "CDSP2",
+      "telefone": "(11) 97307-2439",
+      "operadora": "VIVO",
+      "tipo_chip": "CHIP FÍSICO",
+      "status_linha": "ATIVA",
+      "classificacao_linha": "CORPORATIVO / PAGO",
+      "imei": "351141270973370",
+      "imei2": "351141270973388",
+      "marca": "MOTOROLA",
+      "modelo": "G35",
+      "status_aparelho": "EM USO",
+      "senha_celular": "9129",
+      "email_celular": "carlos.motoristagds@gmail.com",
+      "senha_email": "Jessica13*",
+      "life_status": "ATIVO",
+      "email_life": "carlos.motoristagds@gmail.com",
+      "senha_life": "Jessica13*",
+      "observacao": "Identificador do Traccar  49999335",
+      "criado_em": "2026-09-15T12:34:10",
+      "atualizado_em": "2026-09-15T12:34:10"
     }
   ]
 }
