@@ -78,9 +78,12 @@
       "life_status": "ATIVO",
       "email_life": "vinicius.gdslider@gmail.com",
       "senha_life": "Azul1234#",
-      "observacao": "Identificador do TRACCAR - 69298502",
+      "traccar_status": "ATIVO",
+      "traccar_identificador": "69298502",
+      "traccar_ultima_atualizacao": "15/09/2026",
+      "observacao": "",
       "criado_em": "2026-09-14T20:18:44",
-      "atualizado_em": "2026-09-15T19:28:29"
+      "atualizado_em": "2026-09-15T20:43:21"
     },
     {
       "id": "c597da15-71ec-4642-8183-51f33016e635",
