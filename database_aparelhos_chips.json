@@ -107,9 +107,12 @@
       "life_status": "ATIVO",
       "email_life": "carlos.motoristagds@gmail.com",
       "senha_life": "Jessica13*",
-      "observacao": "Identificador do Traccar  49999335",
+      "traccar_status": "ATIVO",
+      "traccar_identificador": "49999335",
+      "traccar_ultima_atualizacao": "15/09/2026",
+      "observacao": "",
       "criado_em": "2026-09-15T12:34:10",
-      "atualizado_em": "2026-09-15T12:34:10"
+      "atualizado_em": "2026-09-15T20:43:53"
     }
   ]
 }
