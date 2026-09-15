@@ -469,6 +469,7 @@ def normalize_record(r, current=None):
         "email_celular": clean(r.get("email_celular")),
         "senha_email": clean(r.get("senha_email")),
         "life_status": clean(r.get("life_status")),
+        "telefone_life": format_phone(r.get("telefone_life")) if clean(r.get("telefone_life")) else "",
         "email_life": clean(r.get("email_life")),
         "senha_life": clean(r.get("senha_life")),
         "traccar_status": clean(r.get("traccar_status")),
@@ -486,7 +487,7 @@ def records_df(records):
             "id","responsavel","cpf","cargo","localizacao",
             "telefone","operadora","tipo_chip","status_linha","classificacao_linha",
             "imei","imei2","marca","modelo","status_aparelho",
-            "senha_celular","email_celular","senha_email","life_status","email_life","senha_life",
+            "senha_celular","email_celular","senha_email","life_status","telefone_life","email_life","senha_life",
             "traccar_status","traccar_identificador","traccar_ultima_atualizacao",
             "observacao","criado_em","atualizado_em","situacao","pendencias"
         ])
@@ -496,6 +497,7 @@ def records_df(records):
         if "localizacao" not in x:
             antigo = clean(x.get("empresa_operacao", "")).upper()
             x["localizacao"] = antigo if antigo in LOCALIZACOES else ""
+        x.setdefault("telefone_life", "")
         x.setdefault("traccar_status", "")
         x.setdefault("traccar_identificador", "")
         x.setdefault("traccar_ultima_atualizacao", "")
@@ -550,6 +552,7 @@ def export_excel(records, chips_only=False):
         "modelo":"Modelo",
         "status_aparelho":"Status do aparelho",
         "life_status":"Life",
+        "telefone_life":"Telefone Life360",
         "email_life":"E-mail Life",
         "traccar_status":"Traccar",
         "traccar_identificador":"Identificador Traccar",
@@ -563,7 +566,7 @@ def export_excel(records, chips_only=False):
         "Responsável","CPF","Cargo","Localização",
         "Telefone","Operadora","Tipo do chip","Status da linha","Classificação da linha",
         "IMEI","IMEI 2","Marca","Modelo","Status do aparelho",
-        "Life","E-mail Life","Traccar","Identificador Traccar","Última atualização Traccar",
+        "Life","Telefone Life360","E-mail Life","Traccar","Identificador Traccar","Última atualização Traccar",
         "Situação","Pendências","Observação"
     ] if c in df.columns]
 
@@ -684,7 +687,7 @@ if menu == "🏠 Dashboard":
             "responsavel","cpf","cargo","localizacao",
             "telefone","operadora","status_linha",
             "imei","marca","modelo","status_aparelho",
-            "life_status","traccar_status","traccar_identificador","traccar_ultima_atualizacao",
+            "life_status","telefone_life","traccar_status","traccar_identificador","traccar_ultima_atualizacao",
             "situacao","pendencias"
         ]].rename(columns={
             "responsavel":"Responsável",
@@ -698,7 +701,8 @@ if menu == "🏠 Dashboard":
             "marca":"Marca",
             "modelo":"Modelo",
             "status_aparelho":"Status aparelho",
-            "life_status":"Life",
+            "life_status":"Life360",
+            "telefone_life":"Telefone Life360",
             "traccar_status":"Traccar",
             "traccar_identificador":"ID Traccar",
             "traccar_ultima_atualizacao":"Atualização Traccar",
@@ -776,11 +780,13 @@ def cadastro_form(prefix, initial=None):
     email_celular = c2.text_input("E-mail do celular", clean(initial.get("email_celular")), key=f"{prefix}_email_cel")
     senha_email = c3.text_input("Senha do e-mail", clean(initial.get("senha_email")), key=f"{prefix}_senha_email")
 
-    c4,c5,c6 = st.columns(3)
+    st.markdown("##### 📍 LIFE360")
+    c4,c5,c6,c7 = st.columns(4)
     life_ini = clean(initial.get("life_status"))
-    life_status = c4.selectbox("Life", LIFE_STATUS, index=LIFE_STATUS.index(life_ini) if life_ini in LIFE_STATUS else 0, key=f"{prefix}_life")
-    email_life = c5.text_input("E-mail Life", clean(initial.get("email_life")), key=f"{prefix}_email_life")
-    senha_life = c6.text_input("Senha Life", clean(initial.get("senha_life")), key=f"{prefix}_senha_life")
+    life_status = c4.selectbox("Life360", LIFE_STATUS, index=LIFE_STATUS.index(life_ini) if life_ini in LIFE_STATUS else 0, key=f"{prefix}_life")
+    telefone_life = c5.text_input("Telefone vinculado ao Life360", clean(initial.get("telefone_life")), placeholder="(11) 99999-9999", key=f"{prefix}_telefone_life")
+    email_life = c6.text_input("E-mail Life360", clean(initial.get("email_life")), key=f"{prefix}_email_life")
+    senha_life = c7.text_input("Senha Life360", clean(initial.get("senha_life")), key=f"{prefix}_senha_life")
 
     st.markdown("##### 📍 TRACCAR")
     t1,t2,t3 = st.columns(3)
@@ -810,6 +816,7 @@ def cadastro_form(prefix, initial=None):
         "email_celular": email_celular,
         "senha_email": senha_email,
         "life_status": life_status,
+        "telefone_life": telefone_life,
         "email_life": email_life,
         "senha_life": senha_life,
         "traccar_status": traccar_status,
