@@ -174,6 +174,36 @@
       "observacao": "",
       "criado_em": "2026-09-21T15:58:37",
       "atualizado_em": "2026-09-21T15:58:37"
+    },
+    {
+      "id": "7720e7e7-0387-4dd1-b102-3dbb38051d1c",
+      "responsavel": "AUSTREGELIO BARBOSA DE QUEIROZ",
+      "cpf": "287.482.568-97",
+      "cargo": "MOTORISTA",
+      "localizacao": "CDSP2",
+      "telefone": "(11) 91222-4273",
+      "operadora": "VIVO",
+      "tipo_chip": "CHIP FÍSICO",
+      "status_linha": "ATIVA",
+      "classificacao_linha": "CORPORATIVO / PAGO",
+      "imei": "353104902515736",
+      "imei2": "353104902515744",
+      "marca": "MOTOROLA",
+      "modelo": "G15",
+      "status_aparelho": "EM USO",
+      "senha_celular": "0001",
+      "email_celular": "queiroz.gdslog@gmail.com",
+      "senha_email": "Azul1234*",
+      "life_status": "ATIVO",
+      "telefone_life": "(11) 91222-4273",
+      "email_life": "queiroz.gdslog@gmail.com",
+      "senha_life": "Azul1234*",
+      "traccar_status": "ATIVO",
+      "traccar_identificador": "67279141",
+      "traccar_ultima_atualizacao": "21/09/2026",
+      "observacao": "",
+      "criado_em": "2026-09-21T16:24:32",
+      "atualizado_em": "2026-09-21T16:24:32"
     }
   ]
 }
