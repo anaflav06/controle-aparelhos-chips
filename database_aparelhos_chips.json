@@ -144,6 +144,36 @@
       "observacao": "",
       "criado_em": "2026-09-21T15:39:40",
       "atualizado_em": "2026-09-21T15:39:40"
+    },
+    {
+      "id": "5c45b10c-66b7-47da-9f3a-2b6b309fe4c4",
+      "responsavel": "SILESIO PEREIRA NUNES",
+      "cpf": "124.169.476-13",
+      "cargo": "MOTORISTA",
+      "localizacao": "CDSP2",
+      "telefone": "(11) 93731-0977",
+      "operadora": "VIVO",
+      "tipo_chip": "CHIP FÍSICO",
+      "status_linha": "ATIVA",
+      "classificacao_linha": "CORPORATIVO / PAGO",
+      "imei": "353614583405411",
+      "imei2": "353614583405429",
+      "marca": "MOTOROLA",
+      "modelo": "G04",
+      "status_aparelho": "EM USO",
+      "senha_celular": "9129",
+      "email_celular": "Silesio.gdslog@gmail.com",
+      "senha_email": "Azul1234#",
+      "life_status": "ATIVO",
+      "telefone_life": "(11) 93731-0977",
+      "email_life": "Silesio.gdslog@gmail.com",
+      "senha_life": "Azul1234#",
+      "traccar_status": "ATIVO",
+      "traccar_identificador": "54157892",
+      "traccar_ultima_atualizacao": "21/09/2026",
+      "observacao": "",
+      "criado_em": "2026-09-21T15:58:37",
+      "atualizado_em": "2026-09-21T15:58:37"
     }
   ]
 }
