@@ -114,6 +114,36 @@
       "observacao": "",
       "criado_em": "2026-09-15T12:34:10",
       "atualizado_em": "2026-09-15T20:43:53"
+    },
+    {
+      "id": "378d03e8-5eb8-4330-b213-2f47efbc64ea",
+      "responsavel": "JOSENALDO BATISTA DE OLIVEIRA",
+      "cpf": "676.041.374-15",
+      "cargo": "MOTORISTA",
+      "localizacao": "CDSP2",
+      "telefone": "(11) 95027-3518",
+      "operadora": "VIVO",
+      "tipo_chip": "CHIP FÍSICO",
+      "status_linha": "ATIVA",
+      "classificacao_linha": "CORPORATIVO / PAGO",
+      "imei": "351932266127496",
+      "imei2": "351932266127504",
+      "marca": "MOTOROLA",
+      "modelo": "G53",
+      "status_aparelho": "EM USO",
+      "senha_celular": "9129",
+      "email_celular": "josenaldo.motoristagds@gmail.com",
+      "senha_email": "Jessica13*",
+      "life_status": "ATIVO",
+      "telefone_life": "(11) 95027-3518",
+      "email_life": "josenaldo.motoristagds@gmail.com",
+      "senha_life": "Jessica13*",
+      "traccar_status": "ATIVO",
+      "traccar_identificador": "88873241",
+      "traccar_ultima_atualizacao": "21/09/2026",
+      "observacao": "",
+      "criado_em": "2026-09-21T15:39:40",
+      "atualizado_em": "2026-09-21T15:39:40"
     }
   ]
 }
