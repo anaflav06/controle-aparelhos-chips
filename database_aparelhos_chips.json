@@ -234,6 +234,36 @@
       "observacao": "",
       "criado_em": "2026-09-22T11:38:19",
       "atualizado_em": "2026-09-22T11:38:19"
+    },
+    {
+      "id": "cfc9753e-ae9a-4882-bc23-9c195edf7227",
+      "responsavel": "DOUGLAS MANCINI CARLOS",
+      "cpf": "404.302.678-19",
+      "cargo": "MOTORISTA",
+      "localizacao": "CDSP2",
+      "telefone": "(11) 95039-2046",
+      "operadora": "VIVO",
+      "tipo_chip": "CHIP FÍSICO",
+      "status_linha": "ATIVA",
+      "classificacao_linha": "CORPORATIVO / PAGO",
+      "imei": "351548361221990",
+      "imei2": "351548361222006",
+      "marca": "MOTOROLA",
+      "modelo": "G24",
+      "status_aparelho": "EM USO",
+      "senha_celular": "9129",
+      "email_celular": "gdslog.douglas@gmail.com",
+      "senha_email": "Azul12345678*",
+      "life_status": "ATIVO",
+      "telefone_life": "(11) 95039-2049",
+      "email_life": "gdslog.douglas@gmail.com",
+      "senha_life": "Azul12345678*",
+      "traccar_status": "ATIVO",
+      "traccar_identificador": "87824561",
+      "traccar_ultima_atualizacao": "22/09/2026",
+      "observacao": "",
+      "criado_em": "2026-09-22T15:34:03",
+      "atualizado_em": "2026-09-22T15:34:03"
     }
   ]
 }
