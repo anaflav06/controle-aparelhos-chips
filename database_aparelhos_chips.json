@@ -264,6 +264,36 @@
       "observacao": "",
       "criado_em": "2026-09-22T15:34:03",
       "atualizado_em": "2026-09-22T15:34:03"
+    },
+    {
+      "id": "83d78d2d-36c8-4eb8-8d3b-ec513c086daf",
+      "responsavel": "MARLON DOS SANTOS",
+      "cpf": "118.308.004-26",
+      "cargo": "MOTORISTA",
+      "localizacao": "CDSP2",
+      "telefone": "(11) 95678-7504",
+      "operadora": "VIVO",
+      "tipo_chip": "CHIP FÍSICO",
+      "status_linha": "ATIVA",
+      "classificacao_linha": "CORPORATIVO / PAGO",
+      "imei": "359761364382030",
+      "imei2": "359761364382048",
+      "marca": "MOTOROLA",
+      "modelo": "G10",
+      "status_aparelho": "EM USO",
+      "senha_celular": "",
+      "email_celular": "gdslog.marlonsantos@gmail.com",
+      "senha_email": "Azul123@",
+      "life_status": "",
+      "telefone_life": "(11) 99833-8547",
+      "email_life": "gdslog.marlon@gmail.com",
+      "senha_life": "Azul123@",
+      "traccar_status": "ATIVO",
+      "traccar_identificador": "26296057",
+      "traccar_ultima_atualizacao": "22/09/2026",
+      "observacao": "",
+      "criado_em": "2026-09-22T18:57:09",
+      "atualizado_em": "2026-09-22T18:57:09"
     }
   ]
 }
