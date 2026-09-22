@@ -284,7 +284,7 @@
       "senha_celular": "",
       "email_celular": "gdslog.marlonsantos@gmail.com",
       "senha_email": "Azul123@",
-      "life_status": "",
+      "life_status": "ATIVO",
       "telefone_life": "(11) 99833-8547",
       "email_life": "gdslog.marlon@gmail.com",
       "senha_life": "Azul123@",
@@ -293,7 +293,7 @@
       "traccar_ultima_atualizacao": "22/09/2026",
       "observacao": "",
       "criado_em": "2026-09-22T18:57:09",
-      "atualizado_em": "2026-09-22T18:57:09"
+      "atualizado_em": "2026-09-22T18:57:48"
     }
   ]
 }
