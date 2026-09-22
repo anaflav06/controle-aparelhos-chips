@@ -204,6 +204,36 @@
       "observacao": "",
       "criado_em": "2026-09-21T16:24:32",
       "atualizado_em": "2026-09-21T16:24:32"
+    },
+    {
+      "id": "61000c00-6f34-4605-9e0b-c3d864b3fa2f",
+      "responsavel": "RICARDO RAIMUNDO DA SILVA",
+      "cpf": "146.944.018-07",
+      "cargo": "MOTORISTA",
+      "localizacao": "CDSP2",
+      "telefone": "(11) 99738-2883",
+      "operadora": "VIVO",
+      "tipo_chip": "CHIP FÍSICO",
+      "status_linha": "ATIVA",
+      "classificacao_linha": "CORPORATIVO / PAGO",
+      "imei": "354291424176805",
+      "imei2": "354492134176800",
+      "marca": "GALAXY",
+      "modelo": "A12",
+      "status_aparelho": "EM USO",
+      "senha_celular": "9129",
+      "email_celular": "ricardo.gdslog@gmail.com",
+      "senha_email": "Azul1234#",
+      "life_status": "ATIVO",
+      "telefone_life": "(11) 99738-2883",
+      "email_life": "ricardo.gdslog@gmail.com",
+      "senha_life": "Azul1234#",
+      "traccar_status": "ATIVO",
+      "traccar_identificador": "58632764",
+      "traccar_ultima_atualizacao": "22/09/2026",
+      "observacao": "",
+      "criado_em": "2026-09-22T11:38:19",
+      "atualizado_em": "2026-09-22T11:38:19"
     }
   ]
 }
