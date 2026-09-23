@@ -294,6 +294,36 @@
       "observacao": "",
       "criado_em": "2026-09-22T18:57:09",
       "atualizado_em": "2026-09-22T18:57:48"
+    },
+    {
+      "id": "5cf63c63-a25c-4a55-94f8-913c99fb38d5",
+      "responsavel": "LEONARDO PEREIRA GARCIA",
+      "cpf": "464.629.978-00",
+      "cargo": "MOTORISTA",
+      "localizacao": "CDSP2",
+      "telefone": "(11) 93485-1427",
+      "operadora": "VIVO",
+      "tipo_chip": "CHIP FÍSICO",
+      "status_linha": "ATIVA",
+      "classificacao_linha": "CORPORATIVO / PAGO",
+      "imei": "353104900709075",
+      "imei2": "353104900709083",
+      "marca": "MOTOROLA",
+      "modelo": "G15",
+      "status_aparelho": "EM USO",
+      "senha_celular": "",
+      "email_celular": "gdslog.leonardo@gmail.com",
+      "senha_email": "Azul123*",
+      "life_status": "ATIVO",
+      "telefone_life": "(11) 93485-1427",
+      "email_life": "gdslog.leonardo@gmail.com",
+      "senha_life": "Azul123*",
+      "traccar_status": "ATIVO",
+      "traccar_identificador": "30241398",
+      "traccar_ultima_atualizacao": "23/09/2026",
+      "observacao": "",
+      "criado_em": "2026-09-23T16:41:53",
+      "atualizado_em": "2026-09-23T16:41:53"
     }
   ]
 }
