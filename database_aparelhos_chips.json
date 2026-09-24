@@ -324,6 +324,36 @@
       "observacao": "",
       "criado_em": "2026-09-23T16:41:53",
       "atualizado_em": "2026-09-23T16:41:53"
+    },
+    {
+      "id": "cb9a38d8-2039-454d-b273-4f340982e6e6",
+      "responsavel": "PAULO JOSE MORAIS DO NASCIMENTO",
+      "cpf": "166.984.318-18",
+      "cargo": "MOTORISTA",
+      "localizacao": "CDSP2",
+      "telefone": "(11) 99992-2541",
+      "operadora": "VIVO",
+      "tipo_chip": "CHIP FÍSICO",
+      "status_linha": "ATIVA",
+      "classificacao_linha": "CORPORATIVO / PAGO",
+      "imei": "353078418941513",
+      "imei2": "353078418941521",
+      "marca": "MOTOROLA",
+      "modelo": "G06",
+      "status_aparelho": "EM USO",
+      "senha_celular": "",
+      "email_celular": "gdslog.paulo@gmail.com",
+      "senha_email": "Azul12345*",
+      "life_status": "",
+      "telefone_life": "",
+      "email_life": "gdslog.paulo@gmail.com",
+      "senha_life": "Azul12345*",
+      "traccar_status": "ATIVO",
+      "traccar_identificador": "97964242",
+      "traccar_ultima_atualizacao": "24/09/2026",
+      "observacao": "",
+      "criado_em": "2026-09-24T16:28:14",
+      "atualizado_em": "2026-09-24T16:28:14"
     }
   ]
 }
