@@ -354,6 +354,36 @@
       "observacao": "",
       "criado_em": "2026-09-24T16:28:14",
       "atualizado_em": "2026-09-24T16:28:14"
+    },
+    {
+      "id": "8855bae4-9b6a-4cb7-83c1-43b0adb12e5d",
+      "responsavel": "EZEQUIAS FERREIRA DE SOUZA",
+      "cpf": "615.083.301-15",
+      "cargo": "MOTORISTA",
+      "localizacao": "CDSP2",
+      "telefone": "(11) 91565-0062",
+      "operadora": "VIVO",
+      "tipo_chip": "CHIP FÍSICO",
+      "status_linha": "ATIVA",
+      "classificacao_linha": "CORPORATIVO / PAGO",
+      "imei": "352058600668372",
+      "imei2": "352621730668370",
+      "marca": "GALAXY",
+      "modelo": "A06",
+      "status_aparelho": "EM USO",
+      "senha_celular": "",
+      "email_celular": "ezequias.motoristagds@gmail.com",
+      "senha_email": "Azul12345*",
+      "life_status": "ATIVO",
+      "telefone_life": "(11) 91565-0062",
+      "email_life": "ezequias.motoristagds@gmail.com",
+      "senha_life": "Azul12345*",
+      "traccar_status": "ATIVO",
+      "traccar_identificador": "60912234",
+      "traccar_ultima_atualizacao": "07/10/2026",
+      "observacao": "",
+      "criado_em": "2026-10-07T16:24:09",
+      "atualizado_em": "2026-10-07T16:24:09"
     }
   ]
 }
