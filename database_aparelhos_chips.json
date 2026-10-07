@@ -384,6 +384,36 @@
       "observacao": "",
       "criado_em": "2026-10-07T16:24:09",
       "atualizado_em": "2026-10-07T16:24:09"
+    },
+    {
+      "id": "858823e8-34d2-4d10-97f0-bede7500b342",
+      "responsavel": "RODRIGO LIMA HENRIQUE",
+      "cpf": "320.082.628-20",
+      "cargo": "MOTORISTA",
+      "localizacao": "CDSP2",
+      "telefone": "(11) 93319-9274",
+      "operadora": "VIVO",
+      "tipo_chip": "CHIP FÍSICO",
+      "status_linha": "ATIVA",
+      "classificacao_linha": "CORPORATIVO / PAGO",
+      "imei": "351548361158796",
+      "imei2": "351548361158804",
+      "marca": "MOTOROLA",
+      "modelo": "G24",
+      "status_aparelho": "EM USO",
+      "senha_celular": "9129",
+      "email_celular": "Rodrigo.motoristagds@gmail.com",
+      "senha_email": "Jessica26*",
+      "life_status": "ATIVO",
+      "telefone_life": "(11) 93319-9274",
+      "email_life": "Rodrigo.motoristagds@gmail.com",
+      "senha_life": "Jessica26*",
+      "traccar_status": "ATIVO",
+      "traccar_identificador": "59090418",
+      "traccar_ultima_atualizacao": "07/10/2026",
+      "observacao": "",
+      "criado_em": "2026-10-07T20:06:02",
+      "atualizado_em": "2026-10-07T20:06:02"
     }
   ]
 }
