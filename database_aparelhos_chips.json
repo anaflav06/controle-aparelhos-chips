@@ -414,6 +414,36 @@
       "observacao": "",
       "criado_em": "2026-10-07T20:06:02",
       "atualizado_em": "2026-10-07T20:06:02"
+    },
+    {
+      "id": "749c718b-f840-43de-b407-b1ee185f59de",
+      "responsavel": "JEFFERSON WILLIAN SILVA DE MIRANDA",
+      "cpf": "325.695.778-12",
+      "cargo": "MOTORISTA",
+      "localizacao": "CDSP2",
+      "telefone": "(11) 9725-4482",
+      "operadora": "VIVO",
+      "tipo_chip": "CHIP FÍSICO",
+      "status_linha": "ATIVA",
+      "classificacao_linha": "CORPORATIVO / PAGO",
+      "imei": "353614583403994",
+      "imei2": "353614583404000",
+      "marca": "MOTOROLA",
+      "modelo": "G04",
+      "status_aparelho": "EM USO",
+      "senha_celular": "",
+      "email_celular": "jefferson.motoristagds@gmail.com",
+      "senha_email": "Jessica26*",
+      "life_status": "",
+      "telefone_life": "(11) 9725-4482",
+      "email_life": "jefferson.motoristagds@gmail.com",
+      "senha_life": "Jessica26*",
+      "traccar_status": "ATIVO",
+      "traccar_identificador": "46783930",
+      "traccar_ultima_atualizacao": "08/10/2026",
+      "observacao": "",
+      "criado_em": "2026-10-08T15:24:32",
+      "atualizado_em": "2026-10-08T15:24:32"
     }
   ]
 }
