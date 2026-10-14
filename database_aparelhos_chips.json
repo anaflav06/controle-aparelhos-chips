@@ -504,6 +504,36 @@
       "observacao": "",
       "criado_em": "2026-10-14T19:21:02",
       "atualizado_em": "2026-10-14T19:21:40"
+    },
+    {
+      "id": "a89c9eaa-6e3b-4df9-98a2-b8501de3b21d",
+      "responsavel": "FERNANDA/ VANDERLI",
+      "cpf": "104.468.798-35",
+      "cargo": "ASSISTENTE DE RH",
+      "localizacao": "CDSP2",
+      "telefone": "(11) 94377-1660",
+      "operadora": "VIVO",
+      "tipo_chip": "CHIP FÍSICO",
+      "status_linha": "ATIVA",
+      "classificacao_linha": "CORPORATIVO / PAGO",
+      "imei": "350272672399517",
+      "imei2": "359383642399510",
+      "marca": "MOTOROLA",
+      "modelo": "A07",
+      "status_aparelho": "EM USO",
+      "senha_celular": "9129",
+      "email_celular": "rh.gdslogcelular@gmail.com",
+      "senha_email": "Jessica26*",
+      "life_status": "INATIVO",
+      "telefone_life": "",
+      "email_life": "",
+      "senha_life": "",
+      "traccar_status": "ATIVO",
+      "traccar_identificador": "92529263",
+      "traccar_ultima_atualizacao": "14/10/2026",
+      "observacao": "",
+      "criado_em": "2026-10-14T19:49:33",
+      "atualizado_em": "2026-10-14T19:49:33"
     }
   ]
 }
