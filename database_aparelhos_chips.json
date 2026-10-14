@@ -474,6 +474,36 @@
       "observacao": "",
       "criado_em": "2026-10-14T19:06:18",
       "atualizado_em": "2026-10-14T19:06:18"
+    },
+    {
+      "id": "040b51b4-16cc-46d6-aad9-2ded4b156f53",
+      "responsavel": "ANA CARLA ALMEIDA DE SOUZA",
+      "cpf": "542.821.408-28",
+      "cargo": "AUXILIAR DE LOGISTICA",
+      "localizacao": "CDSP2",
+      "telefone": "(11) 94002-8329",
+      "operadora": "VIVO",
+      "tipo_chip": "CHIP FÍSICO",
+      "status_linha": "ATIVA",
+      "classificacao_linha": "CORPORATIVO / PAGO",
+      "imei": "355555114123155",
+      "imei2": "355555114123163",
+      "marca": "MTOROLA",
+      "modelo": "G8",
+      "status_aparelho": "EM USO",
+      "senha_celular": "",
+      "email_celular": "focal.gds@gmail.com",
+      "senha_email": "Azul1234#",
+      "life_status": "ATIVO",
+      "telefone_life": "(11) 94002-8329",
+      "email_life": "focal.gds@gmail.com",
+      "senha_life": "Azul1234#",
+      "traccar_status": "ATIVO",
+      "traccar_identificador": "99379893",
+      "traccar_ultima_atualizacao": "14/10/2026",
+      "observacao": "",
+      "criado_em": "2026-10-14T19:21:02",
+      "atualizado_em": "2026-10-14T19:21:02"
     }
   ]
 }
