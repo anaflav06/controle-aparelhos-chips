@@ -477,7 +477,7 @@
     },
     {
       "id": "040b51b4-16cc-46d6-aad9-2ded4b156f53",
-      "responsavel": "ANA CARLA ALMEIDA DE SOUZA",
+      "responsavel": "ANA CARLA ALMEIDA DE SOUZA (FOCAL)",
       "cpf": "542.821.408-28",
       "cargo": "AUXILIAR DE LOGISTICA",
       "localizacao": "CDSP2",
@@ -503,7 +503,7 @@
       "traccar_ultima_atualizacao": "14/10/2026",
       "observacao": "",
       "criado_em": "2026-10-14T19:21:02",
-      "atualizado_em": "2026-10-14T19:21:02"
+      "atualizado_em": "2026-10-14T19:21:40"
     }
   ]
 }
