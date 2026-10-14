@@ -444,6 +444,36 @@
       "observacao": "",
       "criado_em": "2026-10-08T15:24:32",
       "atualizado_em": "2026-10-08T15:24:32"
+    },
+    {
+      "id": "84e5a130-c0df-4f3a-8c39-2bf3d7500e12",
+      "responsavel": "ANA PAULA SOUZA  ( SAC)",
+      "cpf": "328.651.778-07",
+      "cargo": "AUXILIAR DE LOGISTICA",
+      "localizacao": "CDSP2",
+      "telefone": "(11) 95821-0811",
+      "operadora": "VIVO",
+      "tipo_chip": "CHIP FÍSICO",
+      "status_linha": "ATIVA",
+      "classificacao_linha": "CORPORATIVO / PAGO",
+      "imei": "354693118185283",
+      "imei2": "354694118185281",
+      "marca": "GALAXY",
+      "modelo": "A01",
+      "status_aparelho": "EM USO",
+      "senha_celular": "",
+      "email_celular": "torredecontrole02.gdslog@gmail.com",
+      "senha_email": "Azul12345@",
+      "life_status": "ATIVO",
+      "telefone_life": "(11) 95821-0811",
+      "email_life": "torredecontrole02.gdslog@gmail.com",
+      "senha_life": "Azul12345@",
+      "traccar_status": "ATIVO",
+      "traccar_identificador": "44477562",
+      "traccar_ultima_atualizacao": "14/10/2026",
+      "observacao": "",
+      "criado_em": "2026-10-14T19:06:18",
+      "atualizado_em": "2026-10-14T19:06:18"
     }
   ]
 }
