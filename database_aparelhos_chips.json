@@ -508,6 +508,36 @@
       "observacao": "",
       "criado_em": "2026-10-14T19:49:33",
       "atualizado_em": "2026-10-14T19:49:33"
+    },
+    {
+      "id": "5c27245a-3b1f-48d5-a6ed-b1fae18f6b9e",
+      "responsavel": "ERONALDO SOARES DE MOURA",
+      "cpf": "168.363.818-29",
+      "cargo": "MOTORISTA",
+      "localizacao": "CPQ08",
+      "telefone": "(11) 96480-6272",
+      "operadora": "VIVO",
+      "tipo_chip": "CHIP FÍSICO",
+      "status_linha": "ATIVA",
+      "classificacao_linha": "CORPORATIVO / PAGO",
+      "imei": "353078418185335",
+      "imei2": "353078418185343",
+      "marca": "MOTOROLA",
+      "modelo": "G06",
+      "status_aparelho": "EM USO",
+      "senha_celular": "9129",
+      "email_celular": "eronaldo.motorista@gmail.com",
+      "senha_email": "Azul12345@",
+      "life_status": "ATIVO",
+      "telefone_life": "(11) 96480-6272",
+      "email_life": "eronaldo.motorista@gmail.com",
+      "senha_life": "Azul12345@",
+      "traccar_status": "ATIVO",
+      "traccar_identificador": "58874793",
+      "traccar_ultima_atualizacao": "28/10/2026",
+      "observacao": "",
+      "criado_em": "2026-10-28T15:33:56",
+      "atualizado_em": "2026-10-28T15:33:56"
     }
   ]
 }
