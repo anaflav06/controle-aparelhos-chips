@@ -538,6 +538,36 @@
       "observacao": "",
       "criado_em": "2026-10-28T15:33:56",
       "atualizado_em": "2026-10-28T15:33:56"
+    },
+    {
+      "id": "eb6cd775-be78-4f2e-a4e7-2a86aaf0079e",
+      "responsavel": "RAFAELA MOTA DA SILVA",
+      "cpf": "372.672.298-08",
+      "cargo": "SUPERVISORA",
+      "localizacao": "CDSP2",
+      "telefone": "(11) 91025-9910",
+      "operadora": "VIVO",
+      "tipo_chip": "CHIP FÍSICO",
+      "status_linha": "ATIVA",
+      "classificacao_linha": "CORPORATIVO / PAGO",
+      "imei": "354291424164264",
+      "imei2": "354492134164269",
+      "marca": "GALAXY",
+      "modelo": "A12",
+      "status_aparelho": "EM USO",
+      "senha_celular": "DESENHO DO NÚMERO 7",
+      "email_celular": "gdslog.rafaela@gmail.com",
+      "senha_email": "Azul12345*",
+      "life_status": "ATIVO",
+      "telefone_life": "(11) 91025-9910",
+      "email_life": "gdslog.rafaela@gmail.com",
+      "senha_life": "Azul12345*",
+      "traccar_status": "ATIVO",
+      "traccar_identificador": "24666819",
+      "traccar_ultima_atualizacao": "29/10/2026",
+      "observacao": "",
+      "criado_em": "2026-10-29T21:29:43",
+      "atualizado_em": "2026-10-29T21:29:43"
     }
   ]
 }
