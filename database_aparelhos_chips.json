@@ -568,6 +568,36 @@
       "observacao": "",
       "criado_em": "2026-10-29T21:29:43",
       "atualizado_em": "2026-10-29T21:29:43"
+    },
+    {
+      "id": "91f4017f-67cf-4c34-872e-a5885d26d9d2",
+      "responsavel": "MARCOS FERREIRA MACIEL",
+      "cpf": "254.747.938-98",
+      "cargo": "SUPERVISOR",
+      "localizacao": "CDSP2",
+      "telefone": "(11) 93730-8296",
+      "operadora": "VIVO",
+      "tipo_chip": "CHIP FÍSICO",
+      "status_linha": "ATIVA",
+      "classificacao_linha": "CORPORATIVO / PAGO",
+      "imei": "353614583406716",
+      "imei2": "353614583406724",
+      "marca": "MOTOROLA",
+      "modelo": "G04",
+      "status_aparelho": "EM USO",
+      "senha_celular": "9121",
+      "email_celular": "marcos.lidergds@gmail.com",
+      "senha_email": "Azul1234*",
+      "life_status": "ATIVO",
+      "telefone_life": "(11) 93730-8296",
+      "email_life": "marcos.lidergds@gmail.com",
+      "senha_life": "Azul1234*",
+      "traccar_status": "ATIVO",
+      "traccar_identificador": "82842292",
+      "traccar_ultima_atualizacao": "30/10/2026",
+      "observacao": "",
+      "criado_em": "2026-10-30T13:08:06",
+      "atualizado_em": "2026-10-30T13:08:06"
     }
   ]
 }
