@@ -658,6 +658,36 @@
       "observacao": "",
       "criado_em": "2026-10-30T13:55:20",
       "atualizado_em": "2026-10-30T13:55:20"
+    },
+    {
+      "id": "9bf44922-fc18-4655-8240-0ae03783d394",
+      "responsavel": "DANIEL ABADE DE MELO",
+      "cpf": "293.286.038-03",
+      "cargo": "MOTORISTA",
+      "localizacao": "CDSP2",
+      "telefone": "(11) 91157-9882",
+      "operadora": "VIVO",
+      "tipo_chip": "CHIP FÍSICO",
+      "status_linha": "ATIVA",
+      "classificacao_linha": "CORPORATIVO / PAGO",
+      "imei": "352058600666855",
+      "imei2": "352621730666853",
+      "marca": "GALAXY",
+      "modelo": "A06",
+      "status_aparelho": "EM USO",
+      "senha_celular": "1020",
+      "email_celular": "daniel.motorista@gmail.com",
+      "senha_email": "Jessica13*",
+      "life_status": "ATIVO",
+      "telefone_life": "(11) 91157-9882",
+      "email_life": "daniel.motorista@gmail.com",
+      "senha_life": "Jessica13*",
+      "traccar_status": "ATIVO",
+      "traccar_identificador": "21166183",
+      "traccar_ultima_atualizacao": "30/10/2026",
+      "observacao": "",
+      "criado_em": "2026-10-30T16:11:28",
+      "atualizado_em": "2026-10-30T16:11:28"
     }
   ]
 }
