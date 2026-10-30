@@ -628,6 +628,36 @@
       "observacao": "",
       "criado_em": "2026-10-30T13:49:26",
       "atualizado_em": "2026-10-30T13:49:26"
+    },
+    {
+      "id": "c5f0b772-44ae-4647-86a2-fececbed2b51",
+      "responsavel": "LUIS CARLOS DOS SANTOS",
+      "cpf": "233.196.378-94",
+      "cargo": "LIDER",
+      "localizacao": "CDSP2",
+      "telefone": "(11) 99515-8842",
+      "operadora": "VIVO",
+      "tipo_chip": "CHIP FÍSICO",
+      "status_linha": "ATIVA",
+      "classificacao_linha": "CORPORATIVO / PAGO",
+      "imei": "354187772177256",
+      "imei2": "354187772177264",
+      "marca": "MOTOROLA",
+      "modelo": "E13",
+      "status_aparelho": "EM USO",
+      "senha_celular": "290422",
+      "email_celular": "Luiz.gdslog1@gmail.com",
+      "senha_email": "Azul1234#",
+      "life_status": "ATIVO",
+      "telefone_life": "(11) 99515-8842",
+      "email_life": "Luiz.gdslog1@gmail.com",
+      "senha_life": "Azul1234#",
+      "traccar_status": "ATIVO",
+      "traccar_identificador": "13744922",
+      "traccar_ultima_atualizacao": "30/10/2026",
+      "observacao": "",
+      "criado_em": "2026-10-30T13:55:20",
+      "atualizado_em": "2026-10-30T13:55:20"
     }
   ]
 }
