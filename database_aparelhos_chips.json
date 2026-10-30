@@ -598,6 +598,36 @@
       "observacao": "",
       "criado_em": "2026-10-30T13:08:06",
       "atualizado_em": "2026-10-30T13:08:06"
+    },
+    {
+      "id": "5fa087fb-0272-4d9c-bd51-29095f29660a",
+      "responsavel": "MARCELO DA SILVA ARAUJO",
+      "cpf": "388.547.368-21",
+      "cargo": "LIDER",
+      "localizacao": "CDSP2",
+      "telefone": "(11) 93056-5851",
+      "operadora": "VIVO",
+      "tipo_chip": "CHIP FÍSICO",
+      "status_linha": "ATIVA",
+      "classificacao_linha": "CORPORATIVO / PAGO",
+      "imei": "353104902499857",
+      "imei2": "353104902499865",
+      "marca": "MOTOROLA",
+      "modelo": "G15",
+      "status_aparelho": "EM USO",
+      "senha_celular": "9129",
+      "email_celular": "Lideres.gdslog@gmail.com",
+      "senha_email": "Azul123@",
+      "life_status": "ATIVO",
+      "telefone_life": "(11) 93056-5851",
+      "email_life": "Lideres.gdslog@gmail.com",
+      "senha_life": "Azul123@",
+      "traccar_status": "ATIVO",
+      "traccar_identificador": "78520832",
+      "traccar_ultima_atualizacao": "30/10/2026",
+      "observacao": "",
+      "criado_em": "2026-10-30T13:49:26",
+      "atualizado_em": "2026-10-30T13:49:26"
     }
   ]
 }
