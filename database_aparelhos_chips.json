@@ -688,6 +688,36 @@
       "observacao": "",
       "criado_em": "2026-10-30T16:11:28",
       "atualizado_em": "2026-11-03T13:43:12"
+    },
+    {
+      "id": "877e9a3f-7c32-47b1-b369-f3d77d2ed28b",
+      "responsavel": "FABRICIO DA SILVA",
+      "cpf": "306.410.548-58",
+      "cargo": "MOTORISTA",
+      "localizacao": "CPQ08",
+      "telefone": "(11) 91567-8642",
+      "operadora": "VIVO",
+      "tipo_chip": "CHIP FÍSICO",
+      "status_linha": "ATIVA",
+      "classificacao_linha": "CORPORATIVO / PAGO",
+      "imei": "358287621420505",
+      "imei2": "358774311420507",
+      "marca": "GALAXY",
+      "modelo": "A05",
+      "status_aparelho": "EM USO",
+      "senha_celular": "",
+      "email_celular": "fabricio.motoristagds@gmail.com",
+      "senha_email": "Jessica26*",
+      "life_status": "",
+      "telefone_life": "(11) 91567-8642",
+      "email_life": "fabricio.motoristagds@gmail.com",
+      "senha_life": "Jessica26*",
+      "traccar_status": "ATIVO",
+      "traccar_identificador": "33366372",
+      "traccar_ultima_atualizacao": "03/11/2026",
+      "observacao": "",
+      "criado_em": "2026-11-03T15:57:08",
+      "atualizado_em": "2026-11-03T15:57:08"
     }
   ]
 }
