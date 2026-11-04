@@ -748,6 +748,36 @@
       "observacao": "",
       "criado_em": "2026-11-04T11:52:24",
       "atualizado_em": "2026-11-04T11:52:24"
+    },
+    {
+      "id": "32977253-7b69-4511-bcd4-e97ef659fb9d",
+      "responsavel": "DAVID SILVESTRE PEREIRA",
+      "cpf": "381.674.798-11",
+      "cargo": "MOTORISTA",
+      "localizacao": "CDSP2",
+      "telefone": "(11) 99890-0401",
+      "operadora": "VIVO",
+      "tipo_chip": "CHIP FÍSICO",
+      "status_linha": "ATIVA",
+      "classificacao_linha": "CORPORATIVO / PAGO",
+      "imei": "353614583405296",
+      "imei2": "353614583405304",
+      "marca": "MOTOROLA",
+      "modelo": "G04",
+      "status_aparelho": "EM USO",
+      "senha_celular": "0310",
+      "email_celular": "celular.saot5@gamil.com",
+      "senha_email": "Azul123456*",
+      "life_status": "ATIVO",
+      "telefone_life": "(11) 99890-0401",
+      "email_life": "gdsmotorista04@hotmail.com",
+      "senha_life": "Jessica13*",
+      "traccar_status": "ATIVO",
+      "traccar_identificador": "75369723",
+      "traccar_ultima_atualizacao": "04/11/2026",
+      "observacao": "",
+      "criado_em": "2026-11-04T17:58:41",
+      "atualizado_em": "2026-11-04T17:58:41"
     }
   ]
 }
