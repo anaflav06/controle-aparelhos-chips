@@ -718,6 +718,36 @@
       "observacao": "",
       "criado_em": "2026-11-03T15:57:08",
       "atualizado_em": "2026-11-03T15:57:08"
+    },
+    {
+      "id": "46aadf0d-44d7-4be1-905b-1778e60384a3",
+      "responsavel": "WESLEY TEIXEIRA DE OLIVEIRA",
+      "cpf": "397.612.998-48",
+      "cargo": "MOTORISTA",
+      "localizacao": "CDSP2",
+      "telefone": "(11) 94161-9929",
+      "operadora": "VIVO",
+      "tipo_chip": "CHIP FÍSICO",
+      "status_linha": "ATIVA",
+      "classificacao_linha": "CORPORATIVO / PAGO",
+      "imei": "353104900711337",
+      "imei2": "353104900711345",
+      "marca": "MOTOROLA",
+      "modelo": "G15",
+      "status_aparelho": "EM USO",
+      "senha_celular": "1234",
+      "email_celular": "gdslog.wesley@gmail.com",
+      "senha_email": "Azul123*",
+      "life_status": "ATIVO",
+      "telefone_life": "(11) 94161-9929",
+      "email_life": "gdslog.wesley@gmail.com",
+      "senha_life": "Azul123*",
+      "traccar_status": "ATIVO",
+      "traccar_identificador": "61784967",
+      "traccar_ultima_atualizacao": "04/11/2026",
+      "observacao": "",
+      "criado_em": "2026-11-04T11:52:24",
+      "atualizado_em": "2026-11-04T11:52:24"
     }
   ]
 }
