@@ -778,6 +778,36 @@
       "observacao": "",
       "criado_em": "2026-11-04T17:58:41",
       "atualizado_em": "2026-11-04T17:58:41"
+    },
+    {
+      "id": "2d363415-914c-4f37-a905-a5bd9bba2d53",
+      "responsavel": "FABIO CIPRIANO SANTANA",
+      "cpf": "360.691.318-43",
+      "cargo": "MOTORISTA",
+      "localizacao": "CPQ08",
+      "telefone": "(11) 94273-9986",
+      "operadora": "VIVO",
+      "tipo_chip": "CHIP FÍSICO",
+      "status_linha": "ATIVA",
+      "classificacao_linha": "CORPORATIVO / PAGO",
+      "imei": "351141270920850",
+      "imei2": "351141270920868",
+      "marca": "MOTOROLA",
+      "modelo": "G35",
+      "status_aparelho": "EM USO",
+      "senha_celular": "9129",
+      "email_celular": "fabricio.motoristagds@gmail.com",
+      "senha_email": "Jessica26*",
+      "life_status": "ATIVO",
+      "telefone_life": "(11) 94273-9986",
+      "email_life": "fabricio.motoristagds@gmail.com",
+      "senha_life": "Jessica26*",
+      "traccar_status": "ATIVO",
+      "traccar_identificador": "91067719",
+      "traccar_ultima_atualizacao": "05/11/2026",
+      "observacao": "",
+      "criado_em": "2026-11-05T18:47:52",
+      "atualizado_em": "2026-11-05T18:47:52"
     }
   ]
 }
