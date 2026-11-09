@@ -808,6 +808,36 @@
       "observacao": "",
       "criado_em": "2026-11-05T18:47:52",
       "atualizado_em": "2026-11-05T18:47:52"
+    },
+    {
+      "id": "469db7c7-5c60-4d07-ae55-0ff055b0152a",
+      "responsavel": "WELLINGTON JORGE DA SILVA",
+      "cpf": "029.620.444-76",
+      "cargo": "MOTORISTA",
+      "localizacao": "CPQ08",
+      "telefone": "(11) 91891-1215",
+      "operadora": "VIVO",
+      "tipo_chip": "CHIP FÍSICO",
+      "status_linha": "ATIVA",
+      "classificacao_linha": "CORPORATIVO / PAGO",
+      "imei": "355722592214431",
+      "imei2": "355722592214449",
+      "marca": "MOTOROLA",
+      "modelo": "G06",
+      "status_aparelho": "EM USO",
+      "senha_celular": "9129",
+      "email_celular": "wellington.motoristagds@gmail.com",
+      "senha_email": "Jessica26*",
+      "life_status": "ATIVO",
+      "telefone_life": "(11) 91891-1215",
+      "email_life": "fabio.motoristagds@gmail.com",
+      "senha_life": "Jessica26*",
+      "traccar_status": "ATIVO",
+      "traccar_identificador": "35359441",
+      "traccar_ultima_atualizacao": "09/11/2026",
+      "observacao": "",
+      "criado_em": "2026-11-09T15:45:08",
+      "atualizado_em": "2026-11-09T15:45:08"
     }
   ]
 }
