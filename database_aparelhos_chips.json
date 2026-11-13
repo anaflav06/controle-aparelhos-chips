@@ -838,6 +838,36 @@
       "observacao": "",
       "criado_em": "2026-11-09T15:45:08",
       "atualizado_em": "2026-11-09T15:45:08"
+    },
+    {
+      "id": "4477fa4f-5d29-420b-a414-57397571a5e8",
+      "responsavel": "LAZARO EDUARDO DA SILVA JULIANI",
+      "cpf": "222.834.268-80",
+      "cargo": "MOTORISTA",
+      "localizacao": "CPQ08",
+      "telefone": "(11) 97361-5268",
+      "operadora": "VIVO",
+      "tipo_chip": "CHIP FÍSICO",
+      "status_linha": "ATIVA",
+      "classificacao_linha": "CORPORATIVO / PAGO",
+      "imei": "353614583412318",
+      "imei2": "353614583412326",
+      "marca": "MOTOROLA",
+      "modelo": "G04",
+      "status_aparelho": "EM USO",
+      "senha_celular": "9129",
+      "email_celular": "lazaro.motoristagds@gmail.com",
+      "senha_email": "Jessica26*",
+      "life_status": "ATIVO",
+      "telefone_life": "(11) 97361-5268",
+      "email_life": "lazaro.motoristagds@gmail.com",
+      "senha_life": "Jessica26*",
+      "traccar_status": "ATIVO",
+      "traccar_identificador": "75681294",
+      "traccar_ultima_atualizacao": "13/11/2026",
+      "observacao": "",
+      "criado_em": "2026-11-13T18:41:00",
+      "atualizado_em": "2026-11-13T18:41:00"
     }
   ]
 }
