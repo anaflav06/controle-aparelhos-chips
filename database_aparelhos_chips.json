@@ -868,6 +868,36 @@
       "observacao": "",
       "criado_em": "2026-11-13T18:41:00",
       "atualizado_em": "2026-11-13T18:41:00"
+    },
+    {
+      "id": "806cb361-4849-4bac-a51b-cb8e706d09d5",
+      "responsavel": "CPQ08",
+      "cpf": "459.191.038-50",
+      "cargo": "LIDER",
+      "localizacao": "CPQ08",
+      "telefone": "(11) 94260-4045",
+      "operadora": "VIVO",
+      "tipo_chip": "CHIP FÍSICO",
+      "status_linha": "ATIVA",
+      "classificacao_linha": "CORPORATIVO / PAGO",
+      "imei": "356989840916377",
+      "imei2": "356989840916385",
+      "marca": "MOTOLA",
+      "modelo": "G06",
+      "status_aparelho": "EM USO",
+      "senha_celular": "9129",
+      "email_celular": "cpqgds@gmail.com",
+      "senha_email": "Jessica26#",
+      "life_status": "",
+      "telefone_life": "(11) 94260-4045",
+      "email_life": "cpqgds@gmail.com",
+      "senha_life": "Jessica26#",
+      "traccar_status": "ATIVO",
+      "traccar_identificador": "83898918",
+      "traccar_ultima_atualizacao": "19/11/2026",
+      "observacao": "",
+      "criado_em": "2026-11-19T14:04:19",
+      "atualizado_em": "2026-11-19T14:04:19"
     }
   ]
 }
