@@ -928,6 +928,36 @@
       "observacao": "",
       "criado_em": "2026-11-23T20:20:34",
       "atualizado_em": "2026-11-23T20:20:34"
+    },
+    {
+      "id": "cfe63ac7-66d2-497b-9a66-6445552d7fbd",
+      "responsavel": "SUPORTE 01",
+      "cpf": "400.296.440-03",
+      "cargo": "SUPORTE LOGISTICO",
+      "localizacao": "CDSP2",
+      "telefone": "(11) 97173-6573",
+      "operadora": "VIVO",
+      "tipo_chip": "CHIP FÍSICO",
+      "status_linha": "ATIVA",
+      "classificacao_linha": "CORPORATIVO / PAGO",
+      "imei": "351932266412955",
+      "imei2": "",
+      "marca": "MOTOROLA",
+      "modelo": "G53",
+      "status_aparelho": "EM USO",
+      "senha_celular": "9129",
+      "email_celular": "suportelogisticaazul@gmail.com",
+      "senha_email": "jessica26*",
+      "life_status": "",
+      "telefone_life": "(11) 97173-6573",
+      "email_life": "suportelogisticaazul@gmail.com",
+      "senha_life": "Jessica26*",
+      "traccar_status": "NÃO UTILIZA",
+      "traccar_identificador": "",
+      "traccar_ultima_atualizacao": "23/11/2026",
+      "observacao": "",
+      "criado_em": "2026-11-23T20:33:27",
+      "atualizado_em": "2026-11-23T20:33:27"
     }
   ]
 }
