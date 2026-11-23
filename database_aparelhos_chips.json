@@ -898,6 +898,36 @@
       "observacao": "",
       "criado_em": "2026-11-19T14:04:19",
       "atualizado_em": "2026-11-19T14:04:19"
+    },
+    {
+      "id": "93765566-d1c4-47b2-84c1-691af51cb948",
+      "responsavel": "ROTAS AE",
+      "cpf": "422.971.658-38",
+      "cargo": "863102047462403",
+      "localizacao": "CDSP2",
+      "telefone": "(11) 91025-9957",
+      "operadora": "VIVO",
+      "tipo_chip": "CHIP FÍSICO",
+      "status_linha": "ATIVA",
+      "classificacao_linha": "CORPORATIVO / PAGO",
+      "imei": "863102047462403",
+      "imei2": "",
+      "marca": "REDMI NOTE 8",
+      "modelo": "XIAOMI",
+      "status_aparelho": "EM USO",
+      "senha_celular": "",
+      "email_celular": "aeazulgds@gmail.com",
+      "senha_email": "Azul1234*",
+      "life_status": "ATIVO",
+      "telefone_life": "(11) 91025-9957",
+      "email_life": "aeazulgds@gmail.com",
+      "senha_life": "Azul1234*",
+      "traccar_status": "NÃO UTILIZA",
+      "traccar_identificador": "",
+      "traccar_ultima_atualizacao": "23/11/2026",
+      "observacao": "",
+      "criado_em": "2026-11-23T20:20:34",
+      "atualizado_em": "2026-11-23T20:20:34"
     }
   ]
 }
