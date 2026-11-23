@@ -958,6 +958,36 @@
       "observacao": "",
       "criado_em": "2026-11-23T20:33:27",
       "atualizado_em": "2026-11-23T20:35:45"
+    },
+    {
+      "id": "bf22e932-6045-4a87-b020-0e8ff643fa0f",
+      "responsavel": "SUPORTE  AZUL 02",
+      "cpf": "680.939.480-07",
+      "cargo": "SUPORTE LOGISTICA",
+      "localizacao": "CDSP2",
+      "telefone": "(11) 99769-8150",
+      "operadora": "VIVO",
+      "tipo_chip": "CHIP FÍSICO",
+      "status_linha": "ATIVA",
+      "classificacao_linha": "CORPORATIVO / PAGO",
+      "imei": "355722591672092",
+      "imei2": "",
+      "marca": "MOTOROLA",
+      "modelo": "G06",
+      "status_aparelho": "EM USO",
+      "senha_celular": "9129",
+      "email_celular": "suporte.logistica002@gmail.com",
+      "senha_email": "Azul12345@",
+      "life_status": "ATIVO",
+      "telefone_life": "(11) 99769-8150",
+      "email_life": "suporte.logistica002@gmail.com",
+      "senha_life": "Azul12345@",
+      "traccar_status": "NÃO UTILIZA",
+      "traccar_identificador": "",
+      "traccar_ultima_atualizacao": "23/11/2026",
+      "observacao": "",
+      "criado_em": "2026-11-23T20:38:33",
+      "atualizado_em": "2026-11-23T20:38:33"
     }
   ]
 }
