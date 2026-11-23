@@ -931,7 +931,7 @@
     },
     {
       "id": "cfe63ac7-66d2-497b-9a66-6445552d7fbd",
-      "responsavel": "SUPORTE 01",
+      "responsavel": "SUPORTE AZUL  01",
       "cpf": "400.296.440-03",
       "cargo": "SUPORTE LOGISTICO",
       "localizacao": "CDSP2",
@@ -957,7 +957,7 @@
       "traccar_ultima_atualizacao": "23/11/2026",
       "observacao": "",
       "criado_em": "2026-11-23T20:33:27",
-      "atualizado_em": "2026-11-23T20:33:27"
+      "atualizado_em": "2026-11-23T20:35:45"
     }
   ]
 }
