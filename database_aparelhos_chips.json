@@ -975,7 +975,7 @@
       "marca": "MOTOROLA",
       "modelo": "G06",
       "status_aparelho": "EM USO",
-      "senha_celular": "9129",
+      "senha_celular": "0101",
       "email_celular": "suporte.logistica002@gmail.com",
       "senha_email": "Azul12345@",
       "life_status": "ATIVO",
@@ -987,7 +987,7 @@
       "traccar_ultima_atualizacao": "23/11/2026",
       "observacao": "",
       "criado_em": "2026-11-23T20:38:33",
-      "atualizado_em": "2026-11-23T20:38:33"
+      "atualizado_em": "2026-11-23T20:42:08"
     }
   ]
 }
