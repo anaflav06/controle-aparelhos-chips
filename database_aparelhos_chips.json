@@ -948,7 +948,7 @@
       "senha_celular": "9129",
       "email_celular": "suportelogisticaazul@gmail.com",
       "senha_email": "jessica26*",
-      "life_status": "",
+      "life_status": "ATIVO",
       "telefone_life": "(11) 97173-6573",
       "email_life": "suportelogisticaazul@gmail.com",
       "senha_life": "Jessica26*",
@@ -957,7 +957,7 @@
       "traccar_ultima_atualizacao": "23/11/2026",
       "observacao": "",
       "criado_em": "2026-11-23T20:33:27",
-      "atualizado_em": "2026-11-23T20:35:45"
+      "atualizado_em": "2026-11-23T20:39:17"
     },
     {
       "id": "bf22e932-6045-4a87-b020-0e8ff643fa0f",
