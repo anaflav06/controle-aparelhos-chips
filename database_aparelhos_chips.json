@@ -601,7 +601,7 @@
     },
     {
       "id": "5fa087fb-0272-4d9c-bd51-29095f29660a",
-      "responsavel": "MARCELO DA SILVA ARAUJO",
+      "responsavel": "MARCELO DA SILVA ARAUJO (LIDERES)",
       "cpf": "388.547.368-21",
       "cargo": "LIDER",
       "localizacao": "CDSP2",
@@ -625,9 +625,9 @@
       "traccar_status": "ATIVO",
       "traccar_identificador": "78520832",
       "traccar_ultima_atualizacao": "30/10/2026",
-      "observacao": "",
+      "observacao": "ESTAMOS USANDO O MESMO APARELHO PARA O NÚMERO 11 91761-0270 (PONTO DE ENTREGA) - DOIS CHIPS NO MESMO APARELHO.",
       "criado_em": "2026-10-30T13:49:26",
-      "atualizado_em": "2026-10-30T13:49:26"
+      "atualizado_em": "2026-11-24T14:34:22"
     },
     {
       "id": "c5f0b772-44ae-4647-86a2-fececbed2b51",
