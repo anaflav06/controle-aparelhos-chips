@@ -1018,6 +1018,36 @@
       "observacao": "",
       "criado_em": "2026-11-23T20:44:17",
       "atualizado_em": "2026-11-24T12:50:35"
+    },
+    {
+      "id": "5eaaae77-0e8e-4c82-880a-50e38286a89f",
+      "responsavel": "CAMILA FERREIRA DE FREITAS",
+      "cpf": "549.763.438-98",
+      "cargo": "AUXILIAR LOGISTICA",
+      "localizacao": "CDSP2",
+      "telefone": "(11) 91761-0241",
+      "operadora": "VIVO",
+      "tipo_chip": "CHIP FÍSICO",
+      "status_linha": "ATIVA",
+      "classificacao_linha": "CORPORATIVO / PAGO",
+      "imei": "353291451298333",
+      "imei2": "353610981298333",
+      "marca": "GALAXY",
+      "modelo": "A04E",
+      "status_aparelho": "EM USO",
+      "senha_celular": "9129",
+      "email_celular": "gdslog.aparelho02@gmail.com",
+      "senha_email": "Azul12345@",
+      "life_status": "ATIVO",
+      "telefone_life": "(11) 91761-0241",
+      "email_life": "gdslog.torre01@gmail.com",
+      "senha_life": "Azul12345@",
+      "traccar_status": "ATIVO",
+      "traccar_identificador": "18251441",
+      "traccar_ultima_atualizacao": "24/11/2026",
+      "observacao": "",
+      "criado_em": "2026-11-24T14:06:57",
+      "atualizado_em": "2026-11-24T14:06:57"
     }
   ]
 }
