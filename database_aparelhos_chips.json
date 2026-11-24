@@ -991,7 +991,7 @@
     },
     {
       "id": "11ffeb6d-932b-4f86-aac5-55c0e130bac1",
-      "responsavel": "SUPORTE AZUL",
+      "responsavel": "SUPORTE AZUL 03",
       "cpf": "315.139.410-89",
       "cargo": "SUPORTE LOGISTICA",
       "localizacao": "CDSP2",
@@ -1017,7 +1017,7 @@
       "traccar_ultima_atualizacao": "23/11/2026",
       "observacao": "",
       "criado_em": "2026-11-23T20:44:17",
-      "atualizado_em": "2026-11-23T20:44:17"
+      "atualizado_em": "2026-11-24T12:50:35"
     }
   ]
 }
