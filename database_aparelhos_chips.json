@@ -1021,7 +1021,7 @@
     },
     {
       "id": "5eaaae77-0e8e-4c82-880a-50e38286a89f",
-      "responsavel": "CAMILA FERREIRA DE FREITAS",
+      "responsavel": "CAMILA FERREIRA DE FREITAS (BASE)",
       "cpf": "549.763.438-98",
       "cargo": "AUXILIAR LOGISTICA",
       "localizacao": "CDSP2",
@@ -1045,9 +1045,9 @@
       "traccar_status": "ATIVO",
       "traccar_identificador": "18251441",
       "traccar_ultima_atualizacao": "24/11/2026",
-      "observacao": "",
+      "observacao": "ESTAMOS USANDO O MESMO APARELHO PARA DOIS CHIPS 11 91761-0270 - BASE RAFAELA, ALICE, THAYNA.",
       "criado_em": "2026-11-24T14:06:57",
-      "atualizado_em": "2026-11-24T14:06:57"
+      "atualizado_em": "2026-11-24T14:36:03"
     }
   ]
 }
