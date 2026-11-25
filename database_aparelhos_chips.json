@@ -1078,6 +1078,36 @@
       "observacao": "",
       "criado_em": "2026-11-25T11:30:08",
       "atualizado_em": "2026-11-25T11:30:08"
+    },
+    {
+      "id": "822a9b7e-d5a3-429c-a8c1-c5ce6e644e15",
+      "responsavel": "AGUINALDO TIMOTEO DOS SANTOS",
+      "cpf": "165.191.058-80",
+      "cargo": "MOTORISTA",
+      "localizacao": "CDSP2",
+      "telefone": "(11) 91707-9111",
+      "operadora": "VIVO",
+      "tipo_chip": "CHIP FÍSICO",
+      "status_linha": "ATIVA",
+      "classificacao_linha": "CORPORATIVO / PAGO",
+      "imei": "353614583404059",
+      "imei2": "353614583404067",
+      "marca": "MOTOROLA",
+      "modelo": "G04",
+      "status_aparelho": "EM USO",
+      "senha_celular": "0001",
+      "email_celular": "aguinaldo.gdsmotorista@gmail.com",
+      "senha_email": "Azul1234*",
+      "life_status": "ATIVO",
+      "telefone_life": "(11) 91707-9111",
+      "email_life": "aguinaldo.gdsmotorista@gmail.com",
+      "senha_life": "Azul1234*",
+      "traccar_status": "ATIVO",
+      "traccar_identificador": "47783524",
+      "traccar_ultima_atualizacao": "25/11/2026",
+      "observacao": "",
+      "criado_em": "2026-11-25T13:21:54",
+      "atualizado_em": "2026-11-25T13:21:54"
     }
   ]
 }
