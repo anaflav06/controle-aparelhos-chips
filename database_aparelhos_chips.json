@@ -1048,6 +1048,36 @@
       "observacao": "ESTAMOS USANDO O MESMO APARELHO PARA DOIS CHIPS 11 91761-0270 - BASE RAFAELA, ALICE, THAYNA.",
       "criado_em": "2026-11-24T14:06:57",
       "atualizado_em": "2026-11-24T14:36:03"
+    },
+    {
+      "id": "a379cf16-8082-45af-8f2d-bc55a3bfb90f",
+      "responsavel": "WEVERTON FRANCISCO DA SILVA",
+      "cpf": "379.038.408-94",
+      "cargo": "MOTORISTA",
+      "localizacao": "CDSP2",
+      "telefone": "(11) 91760-9897",
+      "operadora": "VIVO",
+      "tipo_chip": "CHIP FÍSICO",
+      "status_linha": "ATIVA",
+      "classificacao_linha": "CORPORATIVO / PAGO",
+      "imei": "353614583396651",
+      "imei2": "353614583396669",
+      "marca": "MOTOROLA",
+      "modelo": "G04",
+      "status_aparelho": "EM USO",
+      "senha_celular": "",
+      "email_celular": "weverton.motoristagds@gmail.com",
+      "senha_email": "Jessica13*",
+      "life_status": "ATIVO",
+      "telefone_life": "(11) 91760-9897",
+      "email_life": "weverton.motoristagds@gmail.com",
+      "senha_life": "Jessica13*",
+      "traccar_status": "ATIVO",
+      "traccar_identificador": "26735569",
+      "traccar_ultima_atualizacao": "25/11/2026",
+      "observacao": "",
+      "criado_em": "2026-11-25T11:30:08",
+      "atualizado_em": "2026-11-25T11:30:08"
     }
   ]
 }
